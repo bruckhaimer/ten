@@ -9,7 +9,7 @@ services:
 - docker
 notifications:
   email:
-  - carnell28@gmail.com
+  - heimer@msn.cn
   on_success: always
   on_failure: always
 branches:

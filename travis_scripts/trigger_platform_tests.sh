@@ -1,5 +1,5 @@
 echo "Beginning platform tests for build $BUILD_NAME"
-travis login --org --no-interactive  --github-token $GITHUB_TOKEN
+travis login --org --no-interactive  --github-token 12e0ab7e9ceee0512997c16335dc332ad4b4b5a2
 export RESULTS=`travis token --org`
 export TARGET_URL="https://api.travis-ci.org/repo/carnellj%2F$PLATFORM_TEST_NAME/requests"
 echo "Kicking off job using target url: $TARGET_URL"
